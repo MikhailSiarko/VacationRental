@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <LangVersion>7.3</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VacationRental.Domain\VacationRental.Domain.csproj" />
+    <ProjectReference Include="..\VacationRental.Storage\VacationRental.Storage.csproj" />
+    <ProjectReference Include="..\VacationRental.Validations\VacationRental.Validations.csproj" />
+  </ItemGroup>
+
+</Project>
