@@ -2,6 +2,7 @@
 {
     public class RentalBindingModel
     {
+        public int PreparationTimeInDays  { get; set; }
         public int Units { get; set; }
     }
 }
